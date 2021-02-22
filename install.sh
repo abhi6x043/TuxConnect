@@ -24,7 +24,7 @@ case $usrnp1 in
   echo ""
   echo "Ready for installatioin"
   echo "Installing Dependencies"
-  sudo apt install -y sshpass python3 python3-tk gpg gnome-terminal
+  sudo apt install -y sshpass python3 python3-tk gpg gnome-terminal xed
   mkdir -p /home/$USER/.Tux_Connect
   cp -r * /home/$USER/.Tux_Connect/
   mkdir -p /home/$USER/.Tux_Connect/configs
