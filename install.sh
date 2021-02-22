@@ -27,6 +27,8 @@ case $usrnp1 in
   sudo apt install -y sshpass python3 python3-tk gpg gnome-terminal
   mkdir -p /home/$USER/.Tux_Connect
   cp -r * /home/$USER/.Tux_Connect/
+  mkdir -p /home/$USER/.Tux_Connect/configs
+  mkdir -p /home/$USER/.Tux_Connect/logs
   rm -f /home/$USER/.Tux_Connect/install.sh
   sed -i 's/abhi/'$usrnm'/g' /home/$USER/.Tux_Connect/docs/add_conn.desktop
   sed -i 's/abhi/'$usrnm'/g' /home/$USER/.Tux_Connect/docs/tux_connect.desktop
