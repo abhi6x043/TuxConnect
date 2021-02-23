@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=TuxConnect SSH
 Comment=A launcher to SSH connections
-Exec=gnome-terminal -e "python3 /home/abhi/Tux_Connect/resources/tuxConn.py"
+Exec=gnome-terminal -e "python3 /home/abhi/.Tux_Connect/resources/tuxConn.py"
 Type=Application
-Icon=/home/abhi/Tux_Connect/icons/logo_32x32.png
+Icon=/home/abhi/.Tux_Connect/icons/logo_32x32.png
