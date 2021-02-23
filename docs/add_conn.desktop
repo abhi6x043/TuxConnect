@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Add_Connection TuxConnect
 Comment=A launcher to add SSH connection in TuxConnect
-Exec= python3 /home/abhi/Tux_Connect/resources/addConn.py
+Exec= python3 /home/abhi/.Tux_Connect/resources/addConn.py
 Type=Application
-Icon=/home/abhi/Tux_Connect/icons/8aa1.jpg
+Icon=/home/abhi/.Tux_Connect/icons/8aa1.jpg
