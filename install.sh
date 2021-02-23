@@ -36,7 +36,7 @@ case $usrnp1 in
   sed -i 's/abhi/'$USER'/g' /home/$USER/.Tux_Connect/desk/tux_connect.desktop
   sed -i 's/abhi/'$USER'/g' /home/$USER/.Tux_Connect/desk/tux_logs.desktop
   sudo cp /home/$USER/.Tux_Connect/desk/*.desktop /usr/share/applications/
-  mv /home/$USER/.Tux_Connect/tux_connect.mp4 /home/$USER/Videos/
+  mv /home/$USER/.Tux_Connect/tux_Connect.mp4 /home/$USER/Videos/
   echo ""
   echo "TuxConnect is Successfully installed"
   echo "Coded by Abhijith S [abhi6x043]"
