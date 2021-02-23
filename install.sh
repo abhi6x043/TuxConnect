@@ -32,10 +32,10 @@ case $usrnp1 in
   mkdir -p /home/$USER/.Tux_Connect/configs
   mkdir -p /home/$USER/.Tux_Connect/logs
   rm -f /home/$USER/.Tux_Connect/install.sh
-  sed -i 's/abhi/'$USER'/g' /home/$USER/.Tux_Connect/docs/add_conn.desktop
-  sed -i 's/abhi/'$USER'/g' /home/$USER/.Tux_Connect/docs/tux_connect.desktop
-  sed -i 's/abhi/'$USER'/g' /home/$USER/.Tux_Connect/docs/tux_logs.desktop
-  sudo cp /home/$USER/.Tux_Connect/docs/*.desktop /usr/share/applications/
+  sed -i 's/abhi/'$USER'/g' /home/$USER/.Tux_Connect/desk/add_conn.desktop
+  sed -i 's/abhi/'$USER'/g' /home/$USER/.Tux_Connect/desk/tux_connect.desktop
+  sed -i 's/abhi/'$USER'/g' /home/$USER/.Tux_Connect/desk/tux_logs.desktop
+  sudo cp /home/$USER/.Tux_Connect/desk/*.desktop /usr/share/applications/
   mv tux_connect.mp4 /home/$USER/Videos/
   echo ""
   echo "TuxConnect is Successfully installed"
