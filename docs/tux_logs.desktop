@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=TuxConnect logs
 Comment=A launcher to check logs
-Exec= xed /home/abhi/Tux_Connect/logs/conn_logs.txt
+Exec= xed /home/abhi/.Tux_Connect/logs/conn_logs.txt
 Type=Application
-Icon=/home/abhi/Tux_Connect/icons/logFile.png
+Icon=/home/abhi/.Tux_Connect/icons/logFile.png
