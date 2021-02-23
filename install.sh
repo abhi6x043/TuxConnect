@@ -5,7 +5,7 @@ echo "############### Welcome to TuxConnect #################"
 echo "############### Designed by abhi6x043 #################"
 echo ""
 
-echo "The installer trying to install the program on your computer."
+echo "The installer is trying to install the program on your computer."
 read -p "Do you wish to continue [y/n] " usrnp1
 
 case $usrnp1 in
@@ -26,7 +26,7 @@ case $usrnp1 in
   echo ""
   echo "Ready for installatioin"
   echo "Installing Dependencies"
-  sudo apt install -y sshpass python3 python3-tk gpg gnome-terminal xed
+  sudo apt install -y sshpass python3 python3-tk gpg gnome-terminal gedit
   mkdir -p /home/$USER/.Tux_Connect
   cp -r * /home/$USER/.Tux_Connect/
   mkdir -p /home/$USER/.Tux_Connect/configs
