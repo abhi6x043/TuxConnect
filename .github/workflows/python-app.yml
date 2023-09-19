@@ -1,0 +1,19 @@
+name: Python application
+
+on:
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set image tag
+      id: extract_image_tag
+      run: |
+        IMAGE_TAG="$(echo ${{github.ref}} | awk -F'/' '{print $NF}')"
+        echo ${{ $IMAGE_TAG == 'master' && 'latest' || $IMAGE_TAG}}
